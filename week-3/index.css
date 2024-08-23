@@ -1,0 +1,128 @@
+body{
+    background-color: #020817;
+    margin: 50px;
+    align-items: center;
+}
+
+.heading{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(59 130 246);
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.input-box {
+    align-self: center;
+    color: white;
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 0%;
+    padding-right: 0px;
+    width: max-content;
+    margin: 10px;
+    display: grid;
+}
+
+.input {
+    margin: 100px;
+    font-size: x-large  ;
+}
+
+input{
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(59 130 246);
+    font: bold;
+}
+
+.bottom-heading > h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(59 130 246);
+}
+
+.add-btn{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    
+}
+
+.btn {
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(59 130 246);
+}
+.btn:hover{
+    border: 1px solid rgb(59 130 246);
+    color: white;
+    cursor: pointer;
+}
+.btn>button{
+    background-color: #020817;
+    color: white;
+    border: 0px;
+    font-size: x-large;
+}
+
+ .list {
+    color: white;
+    border: 1px solid aliceblue;
+    width: max-content;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+ }
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.list-row{
+    height: 2px;
+    display: flex;
+    padding: 50px;
+    
+}
+
+.list-item{
+    align-self: flex-start;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(59 130 246);
+    font: bold;
+    font-size: x-large;
+    
+}
+
+img{
+    height: 30px;
+    border-radius: 100%;
+    margin-bottom: -25px;   
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.remove{
+    height: 2px;
+    border: solid black 1px;
+    border-radius: 100%;
+    align-self: flex-end;
+}
